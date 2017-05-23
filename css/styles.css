@@ -1,0 +1,41 @@
+body {
+    font-family: "Lato", sans-serif;
+    color: #2D3C49;
+    font-weight: 300;
+}
+
+img, embed, object, video {
+    max-width: 100%;
+}
+
+.text-muted {
+    color: #7D97AD
+}
+
+.text-thin {
+    font-weight: 100;
+}
+
+.title-super {
+    font-size: 60px;
+}
+
+.title-logo {
+    max-height: 100px;
+    margin: 20px 0 -10px 0;
+}
+
+hr {
+    border: none;
+    height: 5px;
+    color: #7D97AD;
+    background-color: #7D97AD;
+}
+
+.main-image {
+    width: 100%;
+}
+
+.featured-work {
+    max-height: 270px;
+}
