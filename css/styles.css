@@ -4,7 +4,10 @@ body {
     font-weight: 300;
 }
 
-img, embed, object, video {
+img,
+embed,
+object,
+video {
     max-width: 100%;
 }
 
@@ -38,4 +41,8 @@ hr {
 
 .featured-work {
     max-height: 270px;
+}
+
+a {
+    text-decoration: none;
 }
