@@ -46,3 +46,7 @@ hr {
 a {
     text-decoration: none;
 }
+
+.featured-work img {
+    cursor: pointer;
+}

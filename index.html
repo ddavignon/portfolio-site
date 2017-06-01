@@ -50,22 +50,73 @@
          </header>
          <section class="row text-center featured-work">
             <div class="col-md-4">
-               <img src="images/movie-trailer.png" alt="movie-trailer-website" class="img-responsive">
+               <img src="images/movie-trailer.png" alt="movie-trailer-website" class="img-responsive" data-toggle="modal" data-target="#project1">
                <h3 class="text-uppercase">Movie Trailer Website</h3>
                <p><a href="https://github.com/ddavignon/movie-trailer-website" target="__blank">https://github.com/ddavignon/movie-trailer-website</a></p>
             </div>
             <div class="col-md-4">
-               <img src="images/virtual-closet.png" alt="virtual-closet-applictaion" class="img-responsive">
+               <img src="images/virtual-closet.png" alt="virtual-closet-applictaion" class="img-responsive" data-toggle="modal" data-target="#project2">
                <h3 class="text-uppercase">Virtual Closet</h3>
                <p><a href="https://csumb-sp17-cst438.github.io/virtual_closet/" target="__blank">https://csumb-sp17-cst438.github.io/virtual_closet/</a></p>
             </div>
             <div class="col-md-4">
-               <img src="images/puppy-site.png" alt="image-placeholder" class="img-responsive">
+               <img src="images/puppy-site.png" alt="image-placeholder" class="img-responsive" data-toggle="modal" data-target="#project3">
                <h3 class="text-uppercase">Puppy Quotes</h3>
                <p><a href="https://puppy-generator.herokuapp.com" target="__blank">https://puppy-generator.herokuapp.com</a></p>
             </div>
          </section>
          <!-- end featured work -->
+        <!-- Modal -->
+        <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="myModalLabel">Movie Trailer Website</h4>
+                    </div>
+                    <div class="modal-body">
+                        <img class="img-responsive" src="images/movie-trailer.png">
+                        This was my first project in the Udacity Full Stack Developer Nanodegree course. This project I wrote server-side code to store a list of movies, including box art imagery and a movie trailer URL. This project is written using object-oriented Python.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="myModalLabel">Virtual Closet</h4>
+                    </div>
+                    <div class="modal-body">
+                        <img class="img-responsive" src="images/virtual-closet.png">
+                        This was a group project for my Software Engineering class at CSU Monterey Bay. The Virtual Closet application allows users to take pictures of their closet items to receive suggestions based on current weather conditions. 
+                        Built with React Native for the mobile front-end and Flask for the backend. I was able to work on all parts of the stack in this project, but most of my contributions were focused on the React Native aspect of the project.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="myModalLabel">Puppy Quotes</h4>
+                    </div>
+                    <div class="modal-body">
+                        <img class="img-responsive" src="images/puppy-site.png">
+                        This was the first project for my Software Engineering class at CSU Monterey Bay. This is a server-side application built with the Flask framework for Python. It uses the Twitter API to generate random quotes, and the Getty Image API to generate random background image.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Modal -->
       </main>
    </body>
 </html>
