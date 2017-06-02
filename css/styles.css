@@ -49,4 +49,12 @@ a {
 
 .featured-work img {
     cursor: pointer;
+    min-height: 220px;
+    object-fit: contain;
+    margin: 0 auto;
+}
+
+.card {
+    min-height: 325px;
+    margin: .5rem 0;
 }
