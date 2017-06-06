@@ -58,3 +58,17 @@ a {
     min-height: 325px;
     margin: .5rem 0;
 }
+
+
+/* Large devices (large desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+    .card {
+        min-height: 355px;
+        margin: .5rem 0;
+    }
+    
+    .featured-work img {
+        min-height: 270px;
+    }
+}
