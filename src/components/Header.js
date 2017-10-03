@@ -9,7 +9,7 @@ const Header = () => {
                </div>
                <div className="col-md-9 text-right text-uppercase">
                   <h1 className="text-thin title-super">Dustin D'Avignon</h1>
-                  <h4>Full Stack Developer</h4>
+                  <h4>Full Stack Enthusiast</h4>
                </div>
             </div>
             <div className="row">
