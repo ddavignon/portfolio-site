@@ -31121,7 +31121,7 @@ var Header = function Header() {
             _react2.default.createElement(
                "h4",
                null,
-               "Full Stack Developer"
+               "Full Stack Enthusiast"
             )
          )
       ),
